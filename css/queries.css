@@ -1,0 +1,147 @@
+/* - FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128 
+*/
+
+/* Laptop Large 1440px */
+@media (max-width:1440px) {
+    .heading-first {
+        font-size: 6.2rem;
+    }
+}
+
+/* Laptop 1024px */
+@media (max-width:1024px) {
+    .header__item {
+        font-size: 2rem;
+    }
+
+    .heading-first {
+        font-size: 5.2rem;
+    }
+
+    .heading-second {
+        font-size: 3.6rem;
+    }
+
+    .project__list {
+        gap: 1.2rem;
+    }
+
+    .project__link:link,
+    .project__link:visited {
+        font-size: 1.6rem;
+        gap: 0;
+    }
+}
+
+
+/* Tablet 768px */
+@media(max-width:768px) {
+    /* .hero {
+        grid-template-columns: 1fr;
+    } */
+
+    .header {
+        padding: 2.4rem 3.6rem;
+    }
+
+    .section {
+        padding: 2.4rem 4.8rem;
+    }
+
+    .hero {
+        grid-template-columns: 1fr;
+    }
+
+    .heading-first {
+        font-size: 3.6rem;
+    }
+    
+    .heading-second {
+        font-size: 2.4rem;
+    }
+
+    .heading-third {
+        font-size: 2rem;
+    }
+
+    .heading-fourth {
+        font-size: 1.6rem;
+    }
+
+    .paragraph {
+        letter-spacing: normal;
+    }
+
+    .hero__img-box--img {
+        width: 50%;
+    }
+
+   .project__content {
+    grid-template-columns: 1fr;
+   }
+
+   .header__link:link,
+    .header__link:visited {
+        font-size: 1.6rem;
+    }
+
+   .contact__link:link,
+   .contact__:visited {
+    font-size: 1.6rem;
+   }
+}
+
+@media(max-width:425px) {
+    .header {
+        padding: 2.4rem 0;
+        flex-wrap: wrap;
+    }
+
+    .section {
+        padding: 2.4rem 0;
+    }
+
+    .heading-first {
+        font-size: 2.4rem;
+    }
+    
+    .heading-second {
+        font-size: 2rem;
+    }
+
+    .heading-third {
+        font-size: 1.6rem;
+    }
+    
+
+    .paragraph {
+        font-size: 1.2rem;
+    }
+
+    .header__link:link,
+    .header__link:visited {
+        font-size: 1.2rem;
+    }
+
+    .about__list {
+        font-size: 1.2rem;
+    }
+
+    .project__link:link, 
+    .project__link:visited{
+        font-size: 1.2rem;
+    }
+
+    .contact__link:link,
+    .contact__:visited {
+     font-size: 1.2rem;
+    }
+ 
+
+} 
+
+
